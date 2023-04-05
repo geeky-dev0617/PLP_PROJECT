@@ -121,7 +121,7 @@ nav ul li a:hover{
     margin: 0 auto;
 }
 .abt_text h1{
-    color: yellowgreen;
+    color: rgb(34, 128, 34);
     font-size: 80px;
     text-transform: capitalize;
     margin-bottom: 20px;
@@ -151,4 +151,45 @@ nav ul li a:hover{
 .abt_text button:hover{
     background: transparent;
     border: 2px solid grey;
+}
+.skills{
+    background: lightgray;
+    width: 100%;
+    padding: 70px 0px;
+}
+.title h2{
+    color: rgb(34, 128, 34);
+    font-size: 75px;
+    width: 1130px;
+    margin: 17px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 270px;
+}
+.card{
+    height: 200px;
+    width: 335px;
+    padding: 20px 32px;
+    background: lavender;
+    border-radius: 15px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(25, 3, 75);
+}
+.card h5{
+    color: rgb(25, 3, 75);
+    font-size: 25px;
+    margin-bottom: 15px;
 }
