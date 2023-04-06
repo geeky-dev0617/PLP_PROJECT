@@ -13,17 +13,22 @@ body{
     transform: translate(-50% -50%);
     text-align: center;
 }
+
 header h1{
     font-size: 60px;
     letter-spacing: 3px;
     margin-bottom: 15px;
+    color: green;
 }
+
 header p{
     margin-top: 20px;
     font-size: 18px;
     line-height: 30px;
     font-weight: bolder;
+    background: grey;
 }
 header hr{
     border: 2px solid black;
     left: 30px;
+}
